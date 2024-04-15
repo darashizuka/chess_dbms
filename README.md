@@ -13,6 +13,7 @@ Represent chess positions using bitboards
 # Usage:
 Parsing PGN Strings
 You can create a new game object by parsing a PGN string:
+
 Game game("PGN string", "White Player", "Black Player");
 
 
