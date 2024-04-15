@@ -19,17 +19,22 @@ Game game("PGN string", "White Player", "Black Player");
 
 # Saving and Loading Games
 Save a game to a binary file:
+
 string filename = game.saveToFile();
 
 # Load a game from a binary file:
 Game loadedGame("FEN string", "White Player", "Black Player");
+
 loadedGame.loadFromFile("game1.bin");
 
 # Searching for Moves
-Search for a specific move within multiple games:vector<int> foundGameIds = searchForMove("e3w");
+Search for a specific move within multiple games:
+
+vector<int> foundGameIds = searchForMove("e3w");
 
 # Bitboard Representation
 Represent chess positions using bitboards:
+
 BitBoard FINALBITBOARD = makeBitboards(pgn, 2);
 
 
